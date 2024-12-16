@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Palindrome Page</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/palindrome.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Palindrome Checker</h1>
+  </header>
+  <main>
+    <form onsubmit="checkPalindrome(event)">
+      <label for="word">Enter a word:</label>
+      <input type="text" id="word" required>
+      <button type="submit">Check</button>
+    </form>
+    <p id="result"></p>
+  </main>
+  <nav>
+    <a href="index.html">Back to Home</a>
+  </nav>
+  <footer>
+    <p>&copy; 2024 My Web Presence</p>
+  </footer>
+</body>
+</html>
